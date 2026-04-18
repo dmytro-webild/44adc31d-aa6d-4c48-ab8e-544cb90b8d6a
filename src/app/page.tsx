@@ -207,6 +207,7 @@ export default function LandingPage() {
       description="Pronto a elevare la tua comunicazione? Prenota una chiamata conoscitiva."
       buttonText="Prenota una call"
       mediaPosition="left"
+      useInvertedBackground={false}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CX1xH7y0jxZ0fhv28YS97mOKD2/uploaded-1776519160163-6gjc83ut.png"
     />
   </div>
