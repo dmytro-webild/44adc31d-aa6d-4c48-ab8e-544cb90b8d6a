@@ -74,7 +74,7 @@ export default function LandingPage() {
           href: "#showreel",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/portrait-brunette-bride-sitting-front-seat-pink-retro-car_8353-11671.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/portrait-brunette-bride-sitting-front-seat-pink-retro-car_8353-11671.jpg?_wi=1"
     />
   </div>
 
@@ -94,7 +94,7 @@ export default function LandingPage() {
             imageSrc: "http://img.b2bpic.net/free-photo/african-american-music-producer-finishing-his-new-track-professional-studio_482257-122055.jpg",
             imageAlt: "Showreel",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-brunette-bride-sitting-front-seat-pink-retro-car_8353-11671.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-brunette-bride-sitting-front-seat-pink-retro-car_8353-11671.jpg?_wi=2",
           imageAlt: "cinematic background video",
         },
         {
@@ -108,7 +108,7 @@ export default function LandingPage() {
             imageSrc: "http://img.b2bpic.net/free-photo/luggage-seen-from-rear-car-window_23-2150934313.jpg",
             imageAlt: "Showreel",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/male-product-photographer-doing-his-job-studio_23-2148970193.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/male-product-photographer-doing-his-job-studio_23-2148970193.jpg?_wi=1",
           imageAlt: "cinematic background video",
         },
         {
@@ -122,7 +122,7 @@ export default function LandingPage() {
             imageSrc: "http://img.b2bpic.net/free-photo/man-wearing-surfer-clothes-horizontal-shot_23-2148823848.jpg",
             imageAlt: "Showreel",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/content-senior-businessman-with-arms-crossed_1262-1790.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/content-senior-businessman-with-arms-crossed_1262-1790.jpg?_wi=1",
           imageAlt: "cinematic background video",
         },
       ]}
@@ -247,7 +247,7 @@ export default function LandingPage() {
           phoneTwo: {
             imageSrc: "http://img.b2bpic.net/free-photo/view-travel-items-inside-car-ready-trip_23-2151078273.jpg",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-brunette-bride-sitting-front-seat-pink-retro-car_8353-11671.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-brunette-bride-sitting-front-seat-pink-retro-car_8353-11671.jpg?_wi=3",
           imageAlt: "cinematic background video",
         },
         {
@@ -259,7 +259,7 @@ export default function LandingPage() {
           phoneTwo: {
             imageSrc: "http://img.b2bpic.net/free-photo/front-view-woman-holding-beautiful-flowers_23-2149540010.jpg",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/male-product-photographer-doing-his-job-studio_23-2148970193.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/male-product-photographer-doing-his-job-studio_23-2148970193.jpg?_wi=2",
           imageAlt: "cinematic background video",
         },
         {
@@ -271,7 +271,7 @@ export default function LandingPage() {
           phoneTwo: {
             imageSrc: "http://img.b2bpic.net/free-photo/african-american-tracking-engineer-works-with-greenscreen_482257-122196.jpg",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/content-senior-businessman-with-arms-crossed_1262-1790.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/content-senior-businessman-with-arms-crossed_1262-1790.jpg?_wi=2",
           imageAlt: "cinematic background video",
         },
         {
@@ -283,7 +283,7 @@ export default function LandingPage() {
           phoneTwo: {
             imageSrc: "http://img.b2bpic.net/free-photo/asian-video-editor-working-with-multimedia-footage-editing-film-montage-with-color-grading-sound-working-freelance-home-using-post-production-software-make-movie_482257-48024.jpg",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-woman-posing-with-blue-jacket_23-2149020777.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-woman-posing-with-blue-jacket_23-2149020777.jpg?_wi=1",
           imageAlt: "cinematic background video",
         },
       ]}
@@ -332,14 +332,14 @@ export default function LandingPage() {
           name: "Sarah J.",
           role: "Marketing Manager",
           testimonial: "I contenuti di FPH hanno trasformato le performance social del nostro ultimo lancio.",
-          imageSrc: "http://img.b2bpic.net/free-photo/content-senior-businessman-with-arms-crossed_1262-1790.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/content-senior-businessman-with-arms-crossed_1262-1790.jpg?_wi=3",
         },
         {
           id: "2",
           name: "Mark D.",
           role: "Brand Leader",
           testimonial: "Veloci, strategici e visivamente impeccabili. Non torneremo più indietro.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-woman-posing-with-blue-jacket_23-2149020777.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-beautiful-woman-posing-with-blue-jacket_23-2149020777.jpg?_wi=2",
         },
         {
           id: "3",
