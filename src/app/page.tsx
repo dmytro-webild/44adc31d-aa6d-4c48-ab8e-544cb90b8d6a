@@ -217,6 +217,7 @@ export default function LandingPage() {
         { title: "Social", items: [{ label: "Instagram", href: "https://instagram.com" }, { label: "YouTube", href: "https://youtube.com" }, { label: "LinkedIn", href: "https://linkedin.com" }] },
         { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }, { label: "P.IVA 01858540196", href: "#" }] }
       ]}
+      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CX1xH7y0jxZ0fhv28YS97mOKD2/uploaded-1776517996654-kbihox3z.png"
       logoText="FPH Production"
     />
   </div>
