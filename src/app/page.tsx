@@ -2,10 +2,10 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCenter from '@/components/sections/contact/ContactCenter';
-import FaqBase from '@/components/sections/faq/FaqBase';
+import ContactSplit from '@/components/sections/contact/ContactSplit';
+import FaqDouble from '@/components/sections/faq/FaqDouble';
 import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
-import FooterBase from '@/components/sections/footer/FooterBase';
+import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
 import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -183,7 +183,7 @@ export default function LandingPage() {
   </div>
 
   <div id="faq" data-section="faq">
-      <FaqBase
+      <FaqDouble
       textboxLayout="default"
       useInvertedBackground={false}
       faqs={[
@@ -200,25 +200,23 @@ export default function LandingPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactCenter
-      useInvertedBackground={true}
+      <ContactSplit
       background={{ variant: "gradient-bars" }}
       tag="Parliamo"
       title="Parliamo del tuo prossimo progetto"
       description="Pronto a elevare la tua comunicazione? Prenota una chiamata conoscitiva."
       buttonText="Prenota una call"
+      mediaPosition="left"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CX1xH7y0jxZ0fhv28YS97mOKD2/uploaded-1776519160163-6gjc83ut.png"
     />
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterBase
-      columns={[
-        { title: "Studio", items: [{ label: "Crema, Italia", href: "#" }, { label: "+39 320 2792782", href: "tel:+393202792782" }, { label: "info@fphproduction.com", href: "mailto:info@fphproduction.com" }] },
-        { title: "Social", items: [{ label: "Instagram", href: "https://instagram.com" }, { label: "YouTube", href: "https://youtube.com" }, { label: "LinkedIn", href: "https://linkedin.com" }] },
-        { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }, { label: "P.IVA 01858540196", href: "#" }] }
-      ]}
-      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CX1xH7y0jxZ0fhv28YS97mOKD2/uploaded-1776517996654-kbihox3z.png"
+      <FooterLogoReveal
       logoText="FPH Production"
+      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CX1xH7y0jxZ0fhv28YS97mOKD2/uploaded-1776517996654-kbihox3z.png"
+      leftLink={{ text: "Privacy Policy", href: "#" }}
+      rightLink={{ text: "P.IVA 01858540196", href: "#" }}
     />
   </div>
       </ReactLenis>
