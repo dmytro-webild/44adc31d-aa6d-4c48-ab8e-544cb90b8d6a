@@ -45,7 +45,7 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboardScroll
       background={{ variant: "radial-gradient" }}
-      title="Contenuti video che i brand ricordano. E che convertono."
+      title="Transform Your Brand Identity into High-Performance Cinematic Assets"
       description="Trasformiamo l'identità visiva di brand automotive, lifestyle e luxury in asset cinematici ad alte prestazioni."
       buttons={[
         { text: "Prenota una call", href: "#contact" },
